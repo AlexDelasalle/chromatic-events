@@ -1,0 +1,126 @@
+.profile-page-container{
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+}
+
+.title-profile-name{
+  padding-top: 25px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  // padding-bottom: 20px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 23px;
+}
+
+.title-friend {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+  background-image: linear-gradient(159deg, #d800ff, #ff5c5c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.friend-name {
+  color: white;
+  margin-left: 24px;
+  font-size: 20px;
+}
+
+.title-event {
+  padding-top: 10%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+  background-image: linear-gradient(159deg, #d800ff, #ff5c5c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+
+
+.profile-hello{
+  text-align: center;
+  margin-top: -90;
+
+}
+
+
+
+.fa-angle-left::before {
+  content: "\f104";
+  font-size: 25px;
+  color: white;
+}
+
+#video-button-back {
+  margin-left: 30px !important;
+  font-size: 24px !important;
+  margin-top: 25px!important;
+}
+.profile-page-container{
+  padding-top: -100%;
+
+}
+
+
+.back-to-index{
+  justify-content: space-between;
+  margin-top: 8%;
+  margin-bottom: 10%;
+  padding-left: 8% ;
+  padding-right: 8%;
+
+}
+
+.avatar-header-profile{
+  border-radius: 50%;
+  width: 125px;
+}
+
+.avatar-friend-profile {
+  border-radius: 50%;
+  width: 58px;
+}
+
+.friendsprofile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-style: solid;
+  border-color: white;
+  border-radius: 5px;
+  padding: 2%;
+}
+
+.no-event{
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  padding-top: 18px;
+  font-size: 23px;
+  padding-bottom: 8px;
+}
+
+
+.container-friend{
+  padding-top: 4%;
+}
+
+.no-friend{
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  padding-top: 18px;
+  font-size: 23px;
+  padding-bottom: 8px;
+}

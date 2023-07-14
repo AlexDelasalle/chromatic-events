@@ -1,0 +1,21 @@
+<div class="home-top-container">
+  <h1 class="card-home-text-h1">Chromatic</h1>
+  <h2 class="card-home-text-h2">Discover events near you<br>and meet new people<br>along the way</h2>
+</div>
+
+<div class="container findevent"form id="findeventForm" action="">
+    <h2 class="findeventtitle">Find Event</h2>
+    <div class="content-container">
+        <%= form_with url: events_path, method: :get, class: 'date' do %>
+          <%= text_field_tag :city,
+          params[:city],
+          class: "form-control",
+          placeholder: "Location"
+          %>
+          <%= date_field_tag :date%>
+          <%= submit_tag "Start", class: "btn btn-flat btn-centre" %>
+        <% end %>
+    </div>
+  </div>
+    <br>
+    <br>

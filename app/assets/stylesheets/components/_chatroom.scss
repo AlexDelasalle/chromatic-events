@@ -1,0 +1,135 @@
+.chatroom {
+  height: calc(100vh - 75px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  margin-bottom: 10vh;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: white;
+  padding: 0;
+
+  h1 {
+    margin-bottom: 0;
+    padding: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  .messages {
+    height: 100%;
+    overflow: scroll;
+    padding: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    // padding-top: 76px;
+    padding-bottom: 38%;
+  }
+
+  #new_message {
+    border-top: 1px solid $gray-200;
+    padding: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    .form-group {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.content{
+  border-radius: 30%;
+  font-family: 'Ubuntu', sans-serif;
+}
+.submit-new-message-buttom{
+  border-radius: 50%;
+  background-color: rgb(180, 27, 208);
+  color:white;
+  width: 40px;
+  height: 40px;
+  margin-top: 4%;
+  margin-left: 4%;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.form-control{
+ background-color: white;
+ border-radius: 3vh;
+ width: 96%;
+ height: 5vh;
+ margin-top: 12px
+}
+
+.chatroom-banner {
+  padding: 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:rgb(0, 0, 0);
+  width: 100%;
+  position: sticky;
+  top: 0px;
+}
+
+
+ .chatroom-title{
+  font-family: 'Ubuntu', sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  margin-bottom: 0px;
+  padding-left: 20px;
+}
+
+.card-message {
+    border-top: solid;
+    border-color: #00000008;
+    bottom: 3rem;
+    background-color: whitesmoke;
+    width: 100%;
+    position: fixed;
+}
+
+// modal styling
+
+.modal-header {
+  background-color: #b41bd0 ;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+
+}
+
+.modal-content {
+  border-radius: 5%;
+}
+
+.contributer-box {
+  padding: 0;
+}
+.person-contributer-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  padding: 1%;
+  margin: 2%;
+  border-radius: 5px;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.person-contributer-box img {
+ border-radius: 50%;
+ padding: 2px;
+ margin-left: 10px;
+}
+
+.simple_form.new_friendship {
+  display: flex;
+  align-items: center;
+}
+
+.fas, .fa-solid{
+  color: white;
+}
+
+.modal-dialog{
+  border-radius: 50%;
+}

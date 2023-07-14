@@ -1,0 +1,7 @@
+<div id="message-<%= message.id %>">
+  <small>
+    <strong><%= message.user.name %></strong>
+  </small>
+  <p><%= message.content%></p>
+  <i class="fa-xs d-flex justify-content-end"><%= message.created_at.strftime("%a %b %e at %l:%M %p") %></i>
+</div>
